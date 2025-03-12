@@ -1,5 +1,6 @@
 import numpy as np
 import torch
+
 # device = torch.device("cpu")
 # GPU device setting
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -14,7 +15,6 @@ ffn_hidden = 128
 drop_prob = 0.1
 
 client_num = 5  #the number of involved clients
-
 
 lr = 0.0002  #learning rate
 

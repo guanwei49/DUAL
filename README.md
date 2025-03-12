@@ -101,6 +101,7 @@ performance.
 - Critical difference diagram over attribute-level anomaly detection:
   ![model](pics/attr_aupr.png)
 
+
 The experimental results indicate that there is no significant difference in the performance of DUAL across different
 numbers of clients, and the performance of DUAL with any number of clients shows no significant difference compared to
 centralized training.

@@ -34,6 +34,7 @@ def detect(dataloader, clients, server, eventPartitioner, attribute_dims):
             hs_agg=[]  #aggregate the hidden representation from each client
             for ith_attr in range(len(Xs)):
                 hs_agg.append(torch.zeros((*mask.shape,d_model),device=device))
+
             ##### Forward
             ### aggregate features from clients
             Xs_for_clients = []

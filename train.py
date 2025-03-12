@@ -11,6 +11,7 @@ from conf import *
 
 def train(dataloader,eventPartitioner,clients, server):
     print("*"*10+"training"+"*"*10)
+
     # Reconstructor_parameters=[]
     # Embedding_parameters=[]
     # for client in clients:
@@ -22,6 +23,7 @@ def train(dataloader,eventPartitioner,clients, server):
     #                                                          step_size=int(n_epochs / 2), gamma=0.1)
     # scheduler_Embedding = optim.lr_scheduler.StepLR(optimizer_Embedding, step_size=int(n_epochs / 2),
     #                                                      gamma=0.1)
+
     for epoch in range(int(n_epochs)):
         for ith_attr, Xs in enumerate(tqdm(dataloader)):
             mask = Xs[-1]

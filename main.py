@@ -54,9 +54,6 @@ def main(dataset,eventPartitioner):
     return trace_level_abnormal_scores,event_level_abnormal_scores,attr_level_abnormal_scores
 
 
-
-
-
 if __name__ == '__main__':
     filePath = 'eventlogs'
     resPath='result.csv'
