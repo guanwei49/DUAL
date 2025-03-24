@@ -1,6 +1,6 @@
-# DUAL: A Federated Unsupervised Anomaly Detection Framework for Cross-Enterprise Processes
+# DUAL: A Federated Unsupervised Anomaly Detection Framework for Collaborative Business Processes
 
-This is the source code of our paper '**DUAL: A Federated Unsupervised Anomaly Detection Framework for Cross-Enterprise
+This is the source code of our paper '**DUAL: A Federated Unsupervised Anomaly Detection Framework for Collaborative Business
 Processes**'.
 ![architecture.png](pics/architecture.png)
 
